@@ -1,0 +1,22 @@
+{
+  "name": "gigeoapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frank22leon/gigeoapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frank22leon/gigeoapp/issues"
+  },
+  "homepage": "https://github.com/frank22leon/gigeoapp#readme",
+  "dependencies": {
+    "bootstrap": "^4.6.0"
+  }
+}

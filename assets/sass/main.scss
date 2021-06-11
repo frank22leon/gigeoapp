@@ -1,7 +1,7 @@
 //Manifiesto
 
 //bootstrap
-@import 'vendors/bootstrap4/bootstrap.scss';
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
 // abstracts
 @import 'abstracts/variables';
 @import 'abstracts/mixins';
@@ -10,6 +10,9 @@
 @import 'base/typography';
 @import 'base/base';
 // Layout
+@import 'layout/navbar';
+@import 'layout/bannerSection';
+@import 'layout/heroSection';
 // Components
 @import 'components/buttons';
 @import 'components/inputs';
