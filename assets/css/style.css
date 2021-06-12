@@ -9937,8 +9937,17 @@ body, html {
 
 .navbar__icon {
   width: 100%;
-  color: black;
+  color: black !important;
   font-size: 40px;
+}
+.navbar__icons {
+  color: black !important;
+}
+.navbar__tittleGigeo {
+  font-size: 50px;
+}
+.navbar__tittleArt {
+  font-size: 16px;
 }
 
 .navbar-toggler {
@@ -9947,18 +9956,101 @@ body, html {
   border: none;
 }
 
-.bannerSection__img {
+.bannerSection {
+  background-image: url(../images/image-banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   width: 100%;
-  height: auto;
+  height: 13rem;
+}
+@media (min-width: 576px) {
+  .bannerSection {
+    height: 13rem;
+  }
+}
+@media (min-width: 768px) {
+  .bannerSection {
+    height: 15rem;
+  }
+}
+@media (min-width: 992px) {
+  .bannerSection {
+    height: 19rem;
+  }
+}
+@media (min-width: 1200px) {
+  .bannerSection {
+    height: 20rem;
+  }
 }
 
 .heroSection {
   padding: 30px;
+  justify-content: center;
 }
 .heroSection__img {
   width: 100px;
   height: 100px;
   border-radius: 50%;
+}
+.heroSection__text {
+  color: #6C6E70;
+  font-size: 16px;
+  margin-left: 20px;
+}
+@media (min-width: 1200px) {
+  .heroSection__buttons {
+    margin-left: auto;
+  }
+  .heroSection__img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  .heroSection__tittle {
+    font-size: 22px;
+  }
+  .heroSection__text {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+}
+
+.cardSection__tittlePrincipal {
+  text-align: center;
+  padding-bottom: 30px;
+  font-size: 30px;
+}
+@media (min-width: 768px) {
+  .cardSection__tittlePrincipal {
+    text-align: left;
+    margin-left: 50px;
+  }
+}
+.cardSection__tittle {
+  color: #000;
+  font-size: 30px;
+}
+@media (min-width: 768px) {
+  .cardSection__tittle {
+    font-size: 22px;
+  }
+}
+.cardSection__text {
+  color: #6C6E70;
+  font-size: 22px;
+}
+@media (min-width: 768px) {
+  .cardSection__text {
+    font-size: 16px;
+  }
+}
+.cardSection__linea {
+  border-top: 1px solid lightgrey;
+  height: 2px;
+  max-width: 100%;
+  padding-bottom: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,8 +1,33 @@
 .heroSection {
     padding: 30px;
+    justify-content:center;
     &__img  {
         width: 100px;
         height: 100px;
         border-radius: 50%;
     }
+    
+    &__text  {
+        color: $nickel;
+        font-size: $medium;
+        margin-left: 20px;
     }
+    @media (min-width: 1200px) { 
+        &__buttons  {
+            margin-left:auto;
+        }
+        &__img  {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+        }
+        &__tittle  {
+            font-size: $large;
+        }
+        &__text  {
+            font-size: $medium;
+            margin-left: 10px;
+        }
+     }
+
+}

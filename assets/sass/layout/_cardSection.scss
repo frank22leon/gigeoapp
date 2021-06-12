@@ -1,0 +1,27 @@
+.cardSection    {
+    &__tittlePrincipal  {
+        text-align: center;
+        padding-bottom: 30px;
+        font-size: $x-large;
+        @media (min-width: 768px) { 
+            text-align: left;
+            margin-left:50px;
+         }
+    }
+    &__tittle  {
+        color: $fl-color-secondary;
+        font-size:  $x-large;
+        @media (min-width: 768px) { font-size:  $large; }
+    }
+    &__text {
+        color: $nickel;
+        font-size: $large;
+        @media (min-width: 768px) { font-size:  $medium;}
+    }
+    &__linea {
+        border-top: 1px solid lightgrey;
+        height: 2px;
+        max-width: 100%;
+        padding-bottom: 30px;
+    }
+}
